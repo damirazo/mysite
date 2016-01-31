@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Абдуллин Дамир</title>
+    <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic,cyrillic-ext,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="static/styles/reset.css">
+    <link rel="stylesheet" href="static/styles/base.css">
+</head>
+<body>
+
+<div id="content-wrapper">
+    <div id="sidebar">
+
+        <div id="logo"><a href="/">Абдуллин Дамир</a></div>
+        <div id="quote">
+            Кодить, кодить, кодить! &copy;
+        </div>
+
+        <hr>
+
+        <div id="blocks">
+            <canvas id="canvas" width="160" height="220">
+                Hello, world! :) Вообще-то тут должны была быть анимация, но Ваш браузер ее не поддерживает :(
+            </canvas>
+            <div id="rocket">&nbsp;</div>
+        </div>
+
+        <div class="link-container">
+            <a href="!#/resume/" class="link-container-centered" data-page="resume">Обо мне &bull; Резюме</a>
+            <a href="!#/portfolio/" data-page="portfolio">Портфолио <span>0</span></a>
+            <a href="!#/blog/" data-page="blog">Блог <span>0</span></a>
+            <a href="!#/projects/" data-page="projects">Проекты <span>0</span></a>
+            <a href="!#/lab/" data-page="lab">Лаборатория <span>0</span></a>
+        </div>
+
+        <div class="clear"></div>
+
+        <hr>
+
+        <h4><a href="#"><img src="static/images/rss.png" alt=""></a> Блогозаписи</h4>
+        <!--<p><a href="#">Это первая блогозапись в моем собственном блоге</a></p>-->
+        <!--<p><a href="#">Сетевые извращения: несколько одинаковых ip на разных интерфейсах маршрутизатора в FreeBSD</a></p>-->
+        <!--<p><a href="#">Node.JS для стартапа или о проблемах на продакшене</a></p>-->
+        <!--<p><a href="#">Вышел Django 1.5 Release Candidate</a></p>-->
+        <!--<p><a href="#">Слежение за изменениями в директории: как это делается в разных ОС</a></p>-->
+
+        <p>Записей в блоге еще не было...</p>
+
+        <hr>
+
+        <h4><a href="http://twitter.com/damirazo/"><img src="static/images/twitter.png" alt=""></a> Щебетун</h4>
+
+        <div id="tweet-corner"></div>
+        <div id="twitter">Сообщений не поступало...</div>
+
+    </div>
+    <div id="content">
+        <div id="container">
+
+            <div id="page">Hello, World! :)</div>
+
+            <script type="text/template" id="page-resume">
+                <div id="resume-avatar">
+                    <div id="resume-contacts">
+                        <h6>Контакты</h6>
+                        <p>Skype: <a href="skype:damirazo">damirazo</a></p>
+                        <p>VK: <a href="http://vk.com/damirazo">Абдуллин Дамир</a></p>
+                        <p>Хабрахабр: <a href="http://habrahabr.ru/users/damirazo/">damirazo</a></p>
+                        <p>Github: <a href="http://github.com/damirazo">damirazo</a></p>
+                        <p>Facebook: <a href="http://www.facebook.com/damirazo">Абдуллин Дамир</a></p>
+                        <p>Twitter: <a href="https://twitter.com/damirazo">damirazo</a></p>
+                        <p><a title="Отправить электронное сообщение" href="mailto:me@damirazo.ru"><img src="static/images/email.png" alt=""></a></p>
+                    </div>
+                </div>
+                <div id="resume-text">
+                    <h5>Обо мне</h5>
+                    <p>Здравствуйте! Меня зовут Абдуллин Дамир, также известен как damirazo. Родился в 1987 году, в
+                        городе Казань, где и живу до сей поры.</p>
+                    <p>Увлекаюсь программированием. По большей части данное увлечение пересекается с основной трудовой
+                        деятельностью - разработкой web сайтов и сервисов. Кроме того увлекаюсь игротворительством
+                        (game development). Нравится реализация алгоритмов различной сложности, от генерации ландшафта
+                        и поиска пути, до реализации <abbr title="Искуственный интеллект">ИИ</abbr>.</p>
+
+                    <h5>Навыки</h5>
+                    <p>PHP/Python/Javascript программист. Знаю, также, HTML5 и CSS3, применяю по крайней необходимости.
+                        Опыт работы с PHP и Javascript - 4 года, опыт работы с Python - 2 года.</p>
+                    <p>Знаю и даже иногда применяю на практике следующие непонятные слова:</p>
+                    <ul>
+                        <li><strong>PHP</strong> &bull; Codeigniter, Symfony, Yii,
+                            <a href="http://github.com/damirazo/DMF/" title="Собственный фреймворк">DMF</a>, F3,
+                            Smarty, Twig
+                        </li>
+                        <li><strong>Python</strong> &bull; Django, Tornado, Jinja2, Requests</li>
+                        <li><strong>Javascript</strong> &bull; Jquery, Underscore, Backbone, Mustache</li>
+                        <li><strong>HTML &amp; CSS</strong> &bull; Twitter Bootstrap, 960.gs, Cufon, Modernizr</li>
+                        <li><strong>DB</strong> &bull; MySQL (PHP PDO/mysqli), Memcache, mongodb</li>
+                        <li><strong>APIs</strong> &bull; VK API</li>
+                    </ul>
+
+                    <h5>Прочее</h5>
+                    <p>Иногда пишу статьи на <a href="http://habrahabr.ru/users/damirazo/topics/">Хабре</a>. В частности о
+                    разработке игр на движке Unity3D, о разработке на фреймворке Django и о всякой хрени. </p>
+                    <p>Если статья не связана с IT тематикой, то гораздо чаще ее можно увидеть в моем личном блоге. Туда
+                    я пишу обо всем, что меня волнует в данный конкретный момент.</p>
+                    <p>Люблю Open Source и стараюсь привнести свой вклад в него. До контрибьютерства в известные проекты
+                    пока, к сожалению не дошло, но стараюсь весь разработанный мной программный код выкладывать в
+                        свободный доступ (если он не является чьей-то корпоративной тайной, разумеется).
+                    Некоторые из разработанных мной продуктов можно найти в <a href="https://github.com/damirazo">
+                            моем аккаунте</a> на Github.</p>
+
+                </div>
+            </script>
+
+            <script type="text/template" id="page-portfolio">
+                <h5>Тут будет список выполненных мной работ...</h5>
+            </script>
+
+            <script type="text/template" id="page-blog">
+                <h5>Здесь будет список моих записей в личный блог...</h5>
+            </script>
+
+            <script type="text/template" id="page-projects">
+                <h5>Сюда я буду публиковать свои свободные проекты...</h5>
+            </script>
+
+            <script type="text/template" id="page-lab">
+                <h5>На этой странице буду публиковать свои тестирования, испытания, изыскательства...</h5>
+            </script>
+
+            <div id="container-push">&nbsp;</div>
+        </div>
+
+    </div>
+</div>
+
+<div id="footer-wrapper">
+    <div id="footer">
+        Сайт на данный момент находится в разработке. Его руководство в лице единственного представителя приносит
+        свои извинения за доставленные неудобства.
+    </div>
+</div>
+
+<script type="text/javascript" src="static/scripts/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="static/scripts/mustache.js"></script>
+<script type="text/javascript" src="static/scripts/base.js"></script>
+<script type="text/javascript" src="static/scripts/twitter.js" async="async"></script>
+<script type="text/javascript" src="static/scripts/templates.js"></script>
+</body>
+</html>
